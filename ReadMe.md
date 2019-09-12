@@ -28,8 +28,14 @@ git config user.email email@address.com
 ## Configure the global User NAME
 git config --global user.name "USER'S NAME HERE"
 
-## Configure the current repo's User Email
+## Configure the global User Email
 git config --global user.email email@address.com
+
+## View the current repo's configuration
+git config --list
+
+## View the global configuration
+git config --global --list
 
 ## Get status of the project
 git status
