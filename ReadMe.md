@@ -20,6 +20,17 @@
 ## Show log of commits
 `git log`
 
+`git log --graph --oneline --decorate --all` - nicer version
+
+## Create an alias for a command with options
+`git config --global alias.YourAlias "command --with --options"`
+
+e.g.
+```
+git config --global alias.adog "log --graph --oneline --decorate --all"
+```
+Omitting --global creates the alias for the current repo only
+
 ## Configure the current repo's User NAME
 `git config user.name "USER'S NAME HERE"`
 
