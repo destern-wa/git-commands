@@ -2,40 +2,41 @@
 
 ## Initialise repo
 
-git int .
+`git int .`
 	- Creat new repo with the current folder
-git init REPO-NAME
+	
+`git init REPO-NAME`
 	- create new repository in a new folder REPO-NAME
 
 ## Stage changes
-git add FILE-NAME
+`git add FILE-NAME`
 
 ## Commit Changes
-git commit -m "Meaningfull commit message"
+`git commit -m "Meaningfull commit message"`
 
 ## Show commit details
-git show
+`git show`
 
 ## Show log of commits
-git log
+`git log`
 
 ## Configure the current repo's User NAME
-git config user.name "USER'S NAME HERE"
+`git config user.name "USER'S NAME HERE"`
 
 ## Configure the current repo's User Email
-git config user.email email@address.com
+`git config user.email email@address.com`
 
 ## Configure the global User NAME
-git config --global user.name "USER'S NAME HERE"
+`git config --global user.name "USER'S NAME HERE"`
 
 ## Configure the global User Email
-git config --global user.email email@address.com
+`git config --global user.email email@address.com`
 
 ## View the current repo's configuration
-git config --list
+`git config --list`
 
 ## View the global configuration
-git config --global --list
+`git config --global --list`
 
 ## Get status of the project
-git status
+`git status`
